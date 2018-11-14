@@ -1,0 +1,29 @@
+function hidemail(name1,name2,ext)
+{
+	document.write('<a href=\"');
+	document.write('&#x6d;&#00097;&#105;&#x6c;&#x74;&#x6f;&#x3a;');
+	document.write(name1);
+	if(name2!="")
+		document.write('.');
+	document.write(name2);
+	document.write('&#64;');
+	document.write(ext);
+	if(ext!="")
+		document.write('.');
+	document.write('hc2');
+	document.write('.');
+	document.write('ch');
+	document.write('?subject=[HC2]\">');
+	document.write(name1);
+	if(name2!="")
+		document.write('.');
+	document.write(name2);
+	document.write('&#64;');
+	document.write(ext);
+	if(ext!="")
+		document.write('.');
+	document.write('hc2');
+	document.write('.');
+	document.write('ch');
+	document.write('</a>');
+}
